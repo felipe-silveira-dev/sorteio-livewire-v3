@@ -1,5 +1,5 @@
 <div class="space-y-6">
-    <div class="p-10 text-3xl font-bold text-center text-green-800 bg-green-200 border-2 border-green-600 rounded-xl">
+    <div wire:stream='winner' class="p-10 text-3xl font-bold text-center text-green-800 bg-green-200 border-2 border-green-600 rounded-xl">
         {{ $winner?->name     }}
     </div>
 

@@ -11,11 +11,6 @@ class Sorteio extends Component
 {
     public Candidate $winner;
 
-    public function mount(): void
-    {
-        // sleep(1);
-    }
-
     public function placeholder(): string
     {
         return <<<HTML

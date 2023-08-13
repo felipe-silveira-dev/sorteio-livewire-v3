@@ -3,7 +3,7 @@
         <div class="mb-6">
             <label for="name" class="block text-sm font-medium leading-6 text-gray-900 dark:text-gray-300">Nome</label>
             <div class="mt-2">
-                <input type="name" name="name" id="name" wire:model="form.name"
+                <input type="name" name="name" id="name" wire:model.live="form.name"
                     class="block px-2 w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                     placeholder="John Doe...">
             </div>
@@ -17,7 +17,7 @@
         <div class="mb-6">
             <label for="email" class="block text-sm font-medium leading-6 text-gray-900 dark:text-gray-300">Email</label>
             <div class="mt-2">
-                <input type="email" name="email" id="email" wire:model="form.email"
+                <input type="email" name="email" id="email" wire:model.live="form.email"
                     class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                     placeholder="you@example.com">
             </div>
@@ -31,7 +31,7 @@
         <div class="mb-6">
             <label for="github" class="block text-sm font-medium leading-6 text-gray-900 dark:text-gray-300">Github</label>
             <div class="mt-2">
-                <input type="github" name="github" id="github" wire:model="form.github"
+                <input type="github" name="github" id="github" wire:model.live="form.github"
                     class="block px-2 w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                     placeholder="johndoe">
             </div>

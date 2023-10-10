@@ -1,5 +1,5 @@
 # Sorteio
-
+Sistema de sorteio utilizando livewire.
 - cp .env.example .env
 - php artisan key:generate
 - composer install
